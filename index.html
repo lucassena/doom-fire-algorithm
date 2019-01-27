@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<style>
+			body {
+				background: black;
+			}
+
+			table {
+				border-collapse: collapse;
+				border: 1px solid black;
+				margin: 0 auto;
+			}
+
+			table td {
+				width: 50px;
+				height: 50px;
+				border: 1px solid black;
+				text-align: center;
+				vertical-align: middle;
+				font-family: monospace;
+				font-size: 16px;
+				position: relative;
+			}
+
+			.pixel-index {
+				font-size: 10px;
+				display: inline-block;
+				position: absolute;
+				top: 2px;
+				right: 2px;
+				color: #333;
+			}
+
+			.pixel {
+				width: 4px;
+				height: 4px;
+				border: 0;
+			}
+			
+			.pixel-debug {
+				width: 20px;
+				height: 20px;
+				color: white;
+				font-size: 12px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="doomFireCanvas"></div>
+		<script src="doom-fire.js"></script>
+	</body>
+</html>
